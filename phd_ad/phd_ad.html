@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>PhD Student Position | Visual Circuits & Interfaces</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="PhD student position on optogenetic brain-computer interfaces for vision restoration in the Visual Circuits & Interfaces group at the German Primate Center in Göttingen." />
+	<meta name="author" content="Patrick Jendritza" />
+	<meta property="og:title" content="PhD Student Position: Optogenetic Brain Computer Interface for Vision Restoration" />
+	<meta property="og:description" content="Fully funded 3-year PhD position at the German Primate Center / EKFZ for Optogenetic Therapies in Göttingen." />
+	<meta property="og:type" content="website" />
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+	<style>
+		:root {
+			--accent: #00d5ff;
+			--accent-soft: rgba(0, 213, 255, 0.16);
+			--accent-line: rgba(0, 213, 255, 0.32);
+			--bg: #06111f;
+			--bg2: #091a2e;
+			--panel: #0d2138;
+			--panel2: #102943;
+			--text: #d8e7f2;
+			--muted: #96aac0;
+			--heading: #f2f9ff;
+			--line: rgba(148, 190, 220, 0.18);
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+			font-size: 17px;
+			line-height: 1.65;
+			color: var(--text);
+			background:
+				radial-gradient(circle at 75% 4%, rgba(0, 213, 255, 0.13), transparent 31rem),
+				linear-gradient(135deg, var(--bg), #020711 70%);
+		}
+
+		a {
+			color: var(--accent);
+			text-decoration: none;
+			border-bottom: 1px dotted currentColor;
+		}
+
+		a:hover { border-bottom-color: transparent; }
+
+		strong { color: var(--heading); font-weight: 600; }
+
+		#header {
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 35%;
+			height: 100%;
+			padding: 4.5rem 3.2rem;
+			color: var(--text);
+			background:
+				linear-gradient(160deg, rgba(6, 17, 31, 0.98), rgba(9, 35, 60, 0.96)),
+				radial-gradient(circle at 100% 0%, rgba(0, 213, 255, 0.18), transparent 22rem);
+			display: flex;
+			align-items: flex-start;
+			justify-content: flex-end;
+			text-align: right;
+			border-right: 1px solid var(--line);
+		}
+
+		#header .inner { max-width: 23rem; }
+
+		#header h1 {
+			margin: 0 0 1.5rem 0;
+			font-size: 1.8rem;
+			line-height: 1.35;
+			font-weight: 300;
+			color: var(--heading);
+		}
+
+		#header h1 strong {
+			display: block;
+			margin-bottom: 0.35rem;
+			color: var(--heading);
+			font-size: 1.1em;
+		}
+
+		#header p {
+			margin: 0 0 1.8rem 0;
+			font-size: 1rem;
+			color: var(--muted);
+		}
+
+		#header a { color: var(--heading); }
+
+		.badge {
+			display: inline-block;
+			margin-bottom: 1.1rem;
+			padding: 0.3rem 0.75rem;
+			border: 1px solid var(--accent-line);
+			border-radius: 999px;
+			background: var(--accent-soft);
+			font-size: 0.85rem;
+			letter-spacing: 0.02em;
+			color: var(--heading);
+		}
+
+		.button {
+			display: inline-block;
+			padding: 0.75rem 1rem;
+			border: 1px solid var(--accent);
+			border-radius: 0.35rem;
+			background: var(--accent);
+			color: #02101c !important;
+			font-weight: 700;
+			line-height: 1;
+			text-decoration: none;
+			box-shadow: 0 0 24px rgba(0, 213, 255, 0.18);
+		}
+
+		.button.secondary {
+			background: rgba(0, 213, 255, 0.08);
+			color: var(--accent) !important;
+			box-shadow: none;
+		}
+
+		#main {
+			margin-left: 35%;
+			max-width: 980px;
+			padding: 4.5rem 4rem 3rem 4rem;
+		}
+
+		.hero-graphic {
+			margin: 0 0 2.6rem 0;
+		}
+
+		.hero-graphic img {
+			display: block;
+			width: 100%;
+			height: auto;
+			border: 0;
+			border-radius: 0;
+			box-shadow: none;
+		}
+
+		section {
+			padding: 2.2rem 0;
+			border-top: 1px solid var(--line);
+		}
+
+		section:first-of-type {
+			padding-top: 0;
+			border-top: 0;
+		}
+
+		h2 {
+			margin: 0 0 1rem 0;
+			font-size: 1.55rem;
+			line-height: 1.25;
+			font-weight: 500;
+			color: var(--heading);
+		}
+
+		h3 {
+			margin: 0 0 0.5rem 0;
+			font-size: 1.1rem;
+			font-weight: 600;
+			color: var(--heading);
+		}
+
+		p { margin: 0 0 1.2rem 0; }
+
+		.lead {
+			font-size: 1.1rem;
+			color: var(--heading);
+		}
+
+		ul {
+			margin: 0 0 1rem 0;
+			padding-left: 1.35rem;
+		}
+
+		li { margin: 0.3rem 0; }
+
+		.card {
+			margin-top: 1.2rem;
+			padding: 1.3rem 1.4rem;
+			border: 1px solid var(--line);
+			border-radius: 0.55rem;
+			background: linear-gradient(145deg, rgba(13, 33, 56, 0.96), rgba(9, 26, 46, 0.96));
+		}
+
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 1rem;
+		}
+
+		.actions {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.8rem;
+			margin-top: 1.4rem;
+		}
+
+		footer {
+			padding: 2rem 0 0 0;
+			border-top: 1px solid var(--line);
+			color: var(--muted);
+			font-size: 0.95rem;
+		}
+
+		@media screen and (max-width: 980px) {
+			#header {
+				position: relative;
+				width: 100%;
+				height: auto;
+				padding: 3rem 2rem;
+				text-align: left;
+				justify-content: flex-start;
+				border-right: 0;
+				border-bottom: 1px solid var(--line);
+			}
+
+			#header .inner { max-width: 100%; }
+
+			#main {
+				margin-left: 0;
+				padding: 3rem 2rem;
+			}
+		}
+
+		@media screen and (max-width: 640px) {
+			body { font-size: 16px; }
+			#header { padding: 2.4rem 1.5rem; }
+			#main { padding: 2.4rem 1.5rem; }
+			#header h1 { font-size: 1.55rem; }
+			.grid { grid-template-columns: 1fr; }
+			.actions { display: block; }
+			.actions .button { margin: 0 0 0.7rem 0; }
+		}
+	</style>
+</head>
+<body>
+	<header id="header">
+		<div class="inner">
+			<div class="badge">Open PhD position</div>
+			<h1><strong>PhD student (m/f/d)</strong>Optogenetic Brain Computer Interface for Vision Restoration</h1>
+			<p>Visual Circuits &amp; Interfaces group<br />German Primate Center (DPZ), Göttingen</p>
+			<a class="button" href="mailto:pjendritza@dpz.eu?subject=Application%20PhD%20position%20Optogenetic%20BCI">Apply now by mail</a>
+		</div>
+	</header>
+
+	<main id="main">
+		<div class="hero-graphic">
+			<img src="optoSpikesStretched.png" alt="Optogenetically evoked spiking activity" />
+		</div>
+
+		<section id="overview">
+			<h2>PhD student position</h2>
+			<p class="lead">
+				The <strong>Visual Circuits &amp; Interfaces group</strong> at the <strong>German Primate Center (DPZ)</strong> in Göttingen is seeking a PhD student for a project on optogenetic stimulation of the visual cortex to generate artificial visual perception for vision restoration.
+			</p>
+			<p>
+				The project is part of the <strong>Else Kröner Fresenius Center (EKFZ) for Optogenetic Therapies</strong>, a collaborative research center dedicated to developing optogenetic therapies for clinical use, and is associated with the <strong>University Medical Center Göttingen (UMG)</strong>.
+			</p>
+			<div class="actions">
+				<a class="button secondary" href="https://www.dpz.eu/en/auditory-neuroscience-and-optogenetics/research/visual-circuits-interfaces" target="_blank" rel="noopener">Group website</a>
+				<a class="button secondary" href="https://ekfz.uni-goettingen.de/en/" target="_blank" rel="noopener">EKFZ website</a>
+			</div>
+		</section>
+
+		<section id="project">
+			<h2>The Project</h2>
+			<p>
+				This project will investigate how optogenetic stimulation of visual cortical circuits can evoke visual percepts. The work will include optogenetic and electrical stimulation, large-scale neural recordings with Neuropixels and ECoG, and behavioral experiments in non-human primates (marmosets).
+			</p>
+			<p>
+				A central aim is to determine how stimulation of cortical circuits can reproduce visual percepts that resemble those evoked by natural vision.
+			</p>
+		</section>
+
+		<section id="profile">
+			<h2>Your Profile</h2>
+			<p>
+				Master’s degree, equivalent degree, or close to completion, in a relevant field such as neuroscience, physics, biology, medicine, engineering, psychology, or another relevant field.
+			</p>
+			<div class="card">
+				<h3>Experience or strong interest in</h3>
+				<ul>
+					<li>Neural circuits and visual perception</li>
+					<li>Electrophysiology</li>
+					<li>Optogenetics</li>
+					<li>Systems neuroscience</li>
+					<li>Data analysis / programming, for example MATLAB or Python; some experience required</li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="offer">
+			<h2>We Offer</h2>
+			<div class="grid">
+				<div class="card">
+					<h3>Funding</h3>
+					<p>Full funding for a 3-year PhD position (TV-L E13 65%).</p>
+				</div>
+				<div class="card">
+					<h3>Environment</h3>
+					<p>A highly interdisciplinary environment at the interface of neuroscience and neurotechnology.</p>
+				</div>
+				<div class="card">
+					<h3>Experimental tools</h3>
+					<p>Access to state-of-the-art experimental tools for systems neuroscience and optogenetics.</p>
+				</div>
+				<div class="card">
+					<h3>Community</h3>
+					<p>Integration into the Göttingen neuroscience community.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="apply">
+			<h2>How to apply</h2>
+			<p>Please send:</p>
+			<ul>
+				<li>CV and academic transcripts</li>
+				<li>Short motivation letter</li>
+				<li>Contact information for references</li>
+			</ul>
+			<div class="card">
+				<p><strong>To:</strong> <a href="mailto:pjendritza@dpz.eu?subject=Application%20PhD%20position%20Optogenetic%20BCI">pjendritza@dpz.eu</a></p>
+				<p><strong>Website:</strong> <a href="https://www.dpz.eu/en/auditory-neuroscience-and-optogenetics/research/visual-circuits-interfaces" target="_blank" rel="noopener">Visual Circuits &amp; Interfaces</a></p>
+			</div>
+		</section>
+
+		<footer>
+			<p>&copy; Patrick Jendritza.</p>
+		</footer>
+	</main>
+</body>
+</html>
